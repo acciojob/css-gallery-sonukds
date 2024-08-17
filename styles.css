@@ -1,9 +1,10 @@
 /*  your css code here. If applicable */
 /* CSS for image gallery */
 .cards {
-    display: flex-end;
-    /* flex-wrap: wrap; /* Allows images to wrap to the next line if needed */ */
-    justify-content: space-around; /* Adds spacing between images */
+   display: flex;
+	flex-wrap: wrap;
+	
+
 }
 
 img {
