@@ -1,1 +1,16 @@
 /*  your css code here. If applicable */
+/* CSS for image gallery */
+
+img {
+    margin: 10px;
+    border: 3px solid #000;
+    box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+    max-width: 25vw;
+    height: auto; /* Ensures the aspect ratio is maintained */
+}
+
+img-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows images to wrap to the next line if needed */
+    justify-content: space-around; /* Adds spacing between images */
+}
